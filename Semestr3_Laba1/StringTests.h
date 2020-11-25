@@ -1,0 +1,30 @@
+#pragma once
+
+#include "../String/String.h"
+
+//класс с тестами
+class StringTests
+{
+public:
+
+	//тест конструктора по умолчанию
+	void defaultConstructor();
+
+	//тест конструктора c параметрами
+	void parametrConstructor();
+	
+	//тест конструктора копирования
+	void copyConstructor();
+
+	//геттеры тестировать нет смысла, т.к. там простой код, который только возвращает
+
+	//тест метода изменения строки
+	void setStr();
+
+	//тест метода поиска подстроки
+	void subStr();
+
+	//тест метода объединения строк
+	void concate();
+};
+
